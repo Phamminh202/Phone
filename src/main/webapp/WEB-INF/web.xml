@@ -29,8 +29,6 @@
         <servlet-name>CreatePhoneServlet</servlet-name>
         <url-pattern>/admin/products/create</url-pattern>
     </servlet-mapping>
-
-
     <servlet>
         <servlet-name>DetailPhoneServlet</servlet-name>
         <servlet-class>com.phone.phone.controller.DetailPhoneServlet</servlet-class>

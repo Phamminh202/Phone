@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionHelper {
-    private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/phone-sql";
+    private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/phones";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
     private static Connection connection;
